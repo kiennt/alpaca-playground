@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "typeRoots": ["node_modules/@types"],
+    "isolatedModules": false,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "strict": true,
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./src/*"]
+    }
+  },
+  "include": ["src"]
+}
